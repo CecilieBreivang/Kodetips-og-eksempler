@@ -1,0 +1,48 @@
+/* I CSS er kommentarer skrevet med /* og sluttes med * /, ulikt fra HTML hvor man skriver <!-- --> */
+
+/* CSS-kode har en struktur som består av en selector og en declaration block. 
+
+Selector: Hvilke elementer skal stilen gjelde for.
+Declaration block: Hvilken stil skal elementene ha, ut ifra property og value. 
+
+Eksempel: 
+
+selector {
+    property: value;
+}
+
+*/
+
+/* Nå skal jeg style de elementene vi har i HTML-filen. Alt jeg ønsker er å sentrere innholdet på siden og endre fonten og fargen på teksten. */   
+body {
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+    color: rgb(0, 68, 0);
+}
+
+p {
+    font-family: 'Arial', sans-serif;
+    color: rgb(32, 32, 32);
+    width: 700px;
+    /* margin: auto brukes for å sentrere block-elementer med en definert width */
+    margin: auto;
+    text-align: center;
+}
+
+img {
+    display: block;
+    /* margin: auto brukes for å sentrere block-elementer med en definert width 
+    Til bildet MÅ vi ikke sette en width, som til paragraph, siden bildet har en definert
+    width mindre enn 100% fra før av. */
+    margin: auto;
+}
+
+
+
+
+
+

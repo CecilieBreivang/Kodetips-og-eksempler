@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <!-- Nå skal vi se litt på bruk av <div>-tag for å kunne style innhold på en enklere måte sammen -->
+        <!-- <div> er en tag som brukes for å gruppere innhold sammen. -->
+        <!-- <div> er en forkortelse for division, og brukes for å dele opp innholdet på en nettside. -->
+
+        <!-- I eksemplet under skal jeg vise hvordan vi kan få 3 bilder med tekst satt opp på en linje -->
+
+        <div class="img-container">
+            <div class="images">
+                <img src="./bilder/side-eye-cat.jpg"
+                    alt="Cat looking to the side with a side-eye">
+                <p id="one">Side-eye cat</p>
+            </div>
+            <div class="images">
+                <img src="./bilder/side-eye-cat.jpg"
+                    alt="Cat looking to the side with a side-eye">
+                <p id="two">Side-eye cat</p>
+            </div>
+            <div class="images">
+                <img src="./bilder/side-eye-cat.jpg"
+                    alt="Cat looking to the side with a side-eye">
+                <p id="three">Side-eye cat</p>
+            </div>
+        </div>
+
+        <!-- I tillegg til <div>, så har jeg gitt elementene en class. Siden vi må bruke <div> til to ulike formål,
+        så må vi kunne skille på de på et eller anna vis, så derfor bruker vi class. -->
+
+        <!-- I vanlig HTML og CSS forholder vi oss til lower case og binnestrek mellom ord. Det er også viktig å gi navn som gir mening.
+        Først har jeg "img-container". Å kalle noe for en container er vanlig i programmeringsverden. 
+        Inni "img-container" har jeg 3 <div>-elementer med class "images", man kan se på det slik at jeg har
+        én stor boks som jeg har fylt med 3 mindre bokser som hver inneholder et bilde og tekst. -->
+
+        <!-- Siden jeg ønsker å 3 ulike farger på tekstene, så bruker jeg nå id. Hovedforskjellen på class og id er at:
+         Class kan gjenbrukes flere ganger på elementer som skal ha samme styling, slik som jeg har gjort med "images"
+         Id er et unikt navn som gis til et element, altså navnet kan ikke gjenbrukes på flere elementer. Derfor har jeg "one", "two" og "three". -->
+    </body>
+</html>

@@ -4,4 +4,4 @@ Dette repositoryet er laget for å dele nyttige tips og triks rundt HTML, CSS og
 
 # Sortering av mapper
 
-Hvordan jeg sorterer filene kan endre seg underveis ettersom jeg vurderer hva som hører best sammen eller ikke
+Hvordan jeg sorterer filene kan endre seg underveis ettersom jeg vurderer hva som hører best sammen eller ikke. For nå holder jeg hver leksjon i sin egen branch. For å enkelt bytte branch, bruk Github Desktop.

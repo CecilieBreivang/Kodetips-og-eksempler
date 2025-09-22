@@ -50,3 +50,27 @@ console.log(multiply(4, 5)); // Printer 20 til konsollen
 
 let resultatet = multiply(6, 7);
 console.log(resultatet); // Printer 42 til konsollen
+
+
+// Arrays
+
+// Bruker en "for loop" for å lage en liste i HTML ut ifra vår array i Javascript
+let band = ["Architects", "Bad Omens", "Spiritbox"]
+console.log(band)
+let list = document.getElementById("band");
+for (i = 0; i < band.length; ++i) {
+    let li = document.createElement('li');
+    li.innerText = band[i];
+    list.appendChild(li);
+};
+
+
+// Samme greia, bare at vi bruker en "forEach()"-loop
+let fotball = ["Chelsea", "Arsenal", "Manchester City", "Liverpoo"];
+let liste2 = document.getElementById("fotball");
+
+fotball.forEach((items) => {
+    let li = document.createElement('li');
+    li.innerText = items;
+    liste2.appendChild(li);
+});

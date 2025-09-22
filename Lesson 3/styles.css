@@ -1,0 +1,9 @@
+.img-container {
+    width: 1225px;
+    margin: auto;
+}
+
+.img-container .images {
+    display: inline-block;
+    width: 400px;
+}

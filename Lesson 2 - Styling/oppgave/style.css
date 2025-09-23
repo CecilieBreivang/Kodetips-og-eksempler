@@ -1,0 +1,17 @@
+/* I HTML-filen har vi flere elementer som må styles. Noen ting kan ha samme styling, andre ting vil vi style unikt. */
+
+/* Generell styling, som farger, fonter o.l kan gjerne settes til body-elementet */
+/* Anbefaler å tenke at alt innholdet skal sentreres på siden */
+
+
+/* Navigasjonsbaren bør helst være horisontal, satt øverst til siden, og bullpoints og styling fra a-taggen bør fjernes */
+
+/* Som du ser er innholdet delt opp i flere "facts-container" divs. Her vil jeg at du skal style det slik at
+hver div tar opp 100% av høyden på skjermen, slik at vi kan bruke navigasjonsbaren til å hoppe til hver del.
+Hver div bør ha ulike bakgrunnsfarger, og teksten bør styles slik at den er lett å lese. Teksten kan være likens på alle delene. */
+
+/* Bildene som er lagt til i hver div bør styles slik at de ikke er for store, og at de har en fin plassering i forhold til teksten */
+
+/* Footer bør styles slik at den passer inn i resten av siden */
+
+/* Skriv all CSS-koden i denne filen */

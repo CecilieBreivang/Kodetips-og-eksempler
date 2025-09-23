@@ -4,5 +4,5 @@ Her blir jeg å legge til eksempler og ekstraoppgaver for HTML, CSS og Javascrip
 ### Repository er enda under utvikling
 
 ### VSCode Extensions vi blir å bruke
-ritwickdey.LiveServer
+ritwickdey.LiveServer  
 formulahendry.code-runner 

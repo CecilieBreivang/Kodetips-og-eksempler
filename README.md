@@ -5,4 +5,7 @@ Her blir jeg å legge til eksempler og ekstraoppgaver for HTML, CSS og Javascrip
 
 ### VSCode Extensions vi blir å bruke
 ritwickdey.LiveServer  
-formulahendry.code-runner 
+formulahendry.code-runner  
+
+Last ned Node.js for at Javascript skal kunne kjøres uten problemer  
+https://nodejs.org/en/download

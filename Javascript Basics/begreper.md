@@ -22,11 +22,28 @@ En funksjon er en blokk med kode som kan gjenbrukes flere gang i programmet. I f
 
 
 ## While-loop
-I en while-loop kjøres koden 
+I en while-loop kjøres koden så lenge en betingelse (condition) er sann. 
+    while (condition)
+        statement
 ## For-loop
+I en for-loop kjøres x antall ganger frem til betingelsen (condition) er usann. 
+    for (initialization; condition; afterthought)
+        statement
+## If...else-statement
+I en if...else-statement kjøres koden så lenge en betingelse er sann. Dersom betingelsen er usann, så vil en annen (else) del av koden kjøres.
+    if (condition)
+        statement1
 
-## If-statement 
+// With an else clause
+    if (condition)
+        statement1
+    else
+        statement2
 
 ## Objects
 
 ## Array
+
+### Referanser/nyttige ressurser
+https://developer.mozilla.org/en-US/. 
+https://www.w3schools.com/js/default.asp
